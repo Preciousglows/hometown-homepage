@@ -1,0 +1,86 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+
+.hero-section{
+    background-image: url(images/venice.jpg);
+    background-size: cover;
+    padding: 16em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F1FAEE;
+}
+
+.hero-section h1{
+    margin: 0;
+    color: #F1FAEE;
+    font-weight: 800;
+    background-color: black;
+    text-shadow: 2px 1px 1px black;
+}
+
+.hero-section h2{
+    background: #1D3557;
+    padding: 1%;
+}
+
+.activities-section{
+    background: #F1FAEE;
+    padding: 7em;
+    color: #1D3557;
+}
+
+.activities-section h3{
+    margin: 0 0 1em 0;
+}
+
+.activities-section img{
+    width:80%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.guide-section{
+    padding: 12em;
+
+}
+
+.guide-section img{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.card{
+    background: #A8DADC;
+    display: flex;
+    padding: 2em;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    color: #1D3557;
+}
+
+.card p{
+    font-style: italic;
+}
